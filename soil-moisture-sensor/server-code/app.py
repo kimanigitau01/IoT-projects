@@ -17,6 +17,7 @@ mqtt_client.loop_start()
 
 water_time = 5
 wait_time = 20
+
 def send_relay_command(client,state):
     command = {'relay_on' : state}
     print("Sending message:", command)
@@ -41,7 +42,7 @@ def handle_telemetry(client, userdata, message):
 
     if payload['soil_moisture'] >450:
         threading.Thread(target =control_relay, args = (client,)).start()
-        
+
     command = {'relay_on': payload['soil_moisture'] > 450}
     print("Sending message: ", command)
     client.publish(server_command_topic, json.dumps(command))
