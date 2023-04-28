@@ -25,10 +25,10 @@ def handle_command(client, userdata, message):
     print("Message received:",payload)
 
     if payload['relay_on']:
-        print("Soil Moisture is too low, turning relay on.")
+        # print("Soil Moisture is too low, turning relay on.")
         relay.on()
     else:
-        print("soil moisture is ok, turning relay off")
+        # print("soil moisture is ok, turning relay off")
         relay.off()
 
 
