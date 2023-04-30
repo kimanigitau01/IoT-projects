@@ -1,0 +1,3 @@
+ConnectionString
+--------------------------------------------------------------------------------------------------------------------------------------
+HostName=iot-123-learning.azure-devices.net;DeviceId=soil-moisture-sensor;SharedAccessKey=JldwiLr4Ai/rh5454zFh8Vs4c2534si1jmjLP+VUczY=
