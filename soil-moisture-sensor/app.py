@@ -10,7 +10,7 @@ from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 adc = ADC()
 relay = GroveRelay(5)
 
-connection_string = "HostName=iot-123-learning.azure-devices.net;DeviceId=soil-moisture-sensor;SharedAccessKey=JldwiLr4Ai/rh5454zFh8Vs4c2534si1jmjLP+VUczY="
+connection_string = "HostName=soil-moisture1.azure-devices.net;DeviceId=soil-moisture-sensor;SharedAccessKey=a5mhp4retLRrp44WG5ARYrV5+ZucHyLhHeD/Fa+gqc0="
 
 device_client = IoTHubDeviceClient.create_from_connection_string(connection_string)
 
@@ -36,4 +36,4 @@ while True:
     message = Message(json.dumps({'soil_moisture': soil_moisture}))
     device_client.send_message(message)
 
-    time.sleep(20)
+    time.sleep(2)
