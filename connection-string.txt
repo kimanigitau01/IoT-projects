@@ -1,3 +1,0 @@
-ConnectionString
-------------------------------------------------------------------------------------------------------------------------------------
-HostName=soil-moisture1.azure-devices.net;DeviceId=soil-moisture-sensor;SharedAccessKey=a5mhp4retLRrp44WG5ARYrV5+ZucHyLhHeD/Fa+gqc0=
