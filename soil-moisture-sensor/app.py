@@ -36,4 +36,4 @@ while True:
     message = Message(json.dumps({'soil_moisture': soil_moisture}))
     device_client.send_message(message)
 
-    time.sleep(2)
+    time.sleep(5)
