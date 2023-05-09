@@ -1,2 +1,6 @@
 gps-sensor/connection-string.txt
 gps-sensor/.venv
+gps-sensor/get-pip.py
+gps-sensor/connection-string
+soil-moisture-sensor/.venv
+soil-moisture-sensor/soil-moisture-trigger/.venv
