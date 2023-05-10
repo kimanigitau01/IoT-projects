@@ -7,7 +7,7 @@ from counterfit_shims_grove.grove_relay import GroveRelay
 import json
 from azure.iot.device import IoTHubDeviceClient, Message, MethodResponse
 
-connection_string = 'HostName=soil-moisture-sensor-1.azure-devices.net;DeviceId=soil-moisture-sensor;SharedAccessKey=GS1IcAU1y0dBa8YXpX7B+rcoz/sZ7tQzhpKtRLm76FI='
+connection_string = 'HostName=soil-moisture-sensor-1.azure-devices.net;DeviceId=soil-moisture-sensor;SharedAccessKey=0HjkUxn4AsRemJZBz1k4aq9ewH1peiZGDty4sppdx00='
 
 adc = ADC()
 relay = GroveRelay(5)
