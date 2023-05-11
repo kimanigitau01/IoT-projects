@@ -1,4 +1,0 @@
-Device: iot-hub-events
-ConnectionString
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Endpoint=sb://ihsuprodsouthafricanorthres003dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=Wa1C4Q95CbMnn05FVsIuqqaMf+d48DA8QTxu4R89VX4=;EntityPath=iothub-ehub-gps-sensor-25003461-ac6a3facac
