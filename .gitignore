@@ -8,3 +8,4 @@ soil-moisture-sensor/soil-moisture-trigger/.venv
 soil-moisture-sensor/.venv/pyvenv.cfg
 gps-sensor/primaryKey.txt
 gps-sensor/url-api.txt
+Manufacturing/fruit-quality-detector/.venv
