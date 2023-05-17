@@ -9,3 +9,6 @@ soil-moisture-sensor/.venv/pyvenv.cfg
 gps-sensor/primaryKey.txt
 gps-sensor/url-api.txt
 Manufacturing/fruit-quality-detector/.venv
+Manufacturing/fruit-quality-detector/Device-connection-string.txt
+Manufacturing/fruit-quality-detector/password.txt
+Manufacturing/fruit-quality-detector/docker
