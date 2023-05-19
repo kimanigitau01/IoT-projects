@@ -2,8 +2,8 @@ from counterfit_connection import CounterFitConnection
 CounterFitConnection.init('127.0.0.1', 5000)
 
 import io
-from counterfit_shims_picamera import PiCamera
 import requests
+from counterfit_shims_picamera import PiCamera
 
 camera = PiCamera()
 camera.resolution = (640, 480)
@@ -16,7 +16,7 @@ image.seek(0)
 with open('image.jpg', 'wb') as image_file:
     image_file.write(image.read())
 
-prediction_url = 'http://192.168.137.251/image' # Replace with your IP address
+prediction_url = 'http://192.168.137.251/image'
 headers = {
     'Content-Type' : 'application/octet-stream'
 }
